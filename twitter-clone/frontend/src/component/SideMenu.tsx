@@ -8,14 +8,27 @@ import BookmarkBorderIcon from "@material-ui/icons/BookmarkBorderOutlined";
 import ListAltIcon from "@material-ui/icons/ListAltOutlined";
 import PermIdentityIcon from "@material-ui/icons/PermIdentityOutlined";
 import BorderColorIcon from '@material-ui/icons/BorderColor';
+import {useHomeStyles} from "../pages/Home/theme";
+import {ModalBlock} from "./ModalBlock";
+import {AddTweetForm} from "./AddTweetForm";
 
-import {useHomeStyles} from "../pages/Home";
 
 interface SideMenuProps {
     classes: ReturnType<typeof useHomeStyles>;
 }
 
 export const SideMenu: React.FC<SideMenuProps> = ({classes}: SideMenuProps): React.ReactElement => {
+
+    const [visibleAddTweet, setVisibleAddTweet] = React.useState<boolean>(false);
+
+    const handleClickOpenAddTweet = () => {
+        setVisibleAddTweet(true)
+    }
+
+    const onCloseAddTweet = () => {
+        setVisibleAddTweet(false)
+    }
+
     return (
 
         <ul className={classes.sideMenuList}>
@@ -85,7 +98,8 @@ export const SideMenu: React.FC<SideMenuProps> = ({classes}: SideMenuProps): Rea
                 </div>
             </li>
             <li className={classes.sideMenuItem}>
-                <Button className={classes.sideMenuTweetButton}
+                <Button onClick={handleClickOpenAddTweet}
+                        className={classes.sideMenuTweetButton}
                         variant='contained'
                         color={'primary'}
                         fullWidth>
@@ -94,6 +108,11 @@ export const SideMenu: React.FC<SideMenuProps> = ({classes}: SideMenuProps): Rea
                         <BorderColorIcon/>
                     </Hidden>
                 </Button>
+                <ModalBlock  visible={visibleAddTweet} onClose={onCloseAddTweet}>
+                   <div style={{width: 550}}>
+                       <AddTweetForm maxRows={15} classes={classes}/>
+                   </div>
+                </ModalBlock>
             </li>
         </ul>
 

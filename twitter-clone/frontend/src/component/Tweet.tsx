@@ -5,7 +5,8 @@ import ChatBubbleIcon from "@material-ui/icons/ChatBubbleOutline";
 import RepeatIcon from "@material-ui/icons/Repeat";
 import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
 import ReplyIcon from "@material-ui/icons/Reply";
-import {useHomeStyles} from "../pages/Home";
+import {useHomeStyles} from "../pages/Home/theme";
+
 
 
 interface TweetProps {
