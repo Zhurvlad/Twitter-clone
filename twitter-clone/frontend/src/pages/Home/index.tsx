@@ -14,16 +14,11 @@ import {Tweet} from "../component/Tweet";
 import {SideMenu} from "../component/SideMenu";
 import {TextField} from '@material-ui/core';
 import {Avatar} from '@material-ui/core';
-import {TextareaAutosize} from '@material-ui/core';
-import classNames from 'classnames'
-import {IconButton} from '@material-ui/core';
-import ImageOutlinedIcon from '@material-ui/icons/ImageOutlined';
-import EmojiIcon from '@material-ui/icons/SentimentSatisfiedOutlined';
-import CircularProgress from '@material-ui/core/CircularProgress';
 import SearchIcon from '@material-ui/icons/SearchOutlined';
 import {List} from '@material-ui/core';
-import {ListItemAvatar} from '@material-ui/core';
 import PersonAddIcon from '@material-ui/icons/PersonAddOutlined';
+import {AddTweetForm} from "../component/AddTweetForm";
+import ListItemAvatar from "@material-ui/core/ListItemAvatar";
 
 
 export const useHomeStyles = makeStyles((theme: Theme) => ({
@@ -250,57 +245,7 @@ export const Home = () => {
                             </Typography>
                         </Paper>
                         <Paper>
-                            <div className={classes.addForm}>
-                                <div className={classes.addFormBody}>
-                                    <Avatar
-                                        className={classes.tweetAvatar}
-                                        alt={'Аватарка пользователя UserAvatar'}
-                                        src={'https://cdnimg.rg.ru/img/content/145/73/28/Esenin_d_850.jpg'}
-                                    />
-                                    <TextareaAutosize
-                                        className={classes.addFormTextarea}
-                                        placeholder={'What is it?'}
-                                    />
-                                </div>
-                                <div className={classes.addFormBottom}>
-                                    <div className={classNames(classes.tweetFooter, classes.addFormBottomActions)}>
-                                        <IconButton color="primary">
-                                            <ImageOutlinedIcon style={{fontSize: 26}}/>
-                                        </IconButton>
-                                        <IconButton color="primary">
-                                            <EmojiIcon style={{fontSize: 26}}/>
-                                        </IconButton>
-                                    </div>
-                                    <div className={classes.addFormBottomRight}>
-                                        <>
-                                            <span>228</span>
-                                            <div className={classes.addFormCircleProgress}>
-                                                <CircularProgress
-                                                    variant="static"
-                                                    size={20}
-                                                    thickness={5}
-                                                    /* value={text.length >= MAX_LENGTH ? 100 : textLimitPercent}
-                                                     style={text.length >= MAX_LENGTH ? {color: 'red'} : undefined}*/
-                                                />
-                                                <CircularProgress
-                                                    style={{color: 'rgba(0, 0, 0, 0.1)'}}
-                                                    variant="static"
-                                                    size={20}
-                                                    thickness={5}
-                                                    value={100}
-                                                />
-                                            </div>
-                                        </>
-                                        <Button
-
-
-                                            color="primary"
-                                            variant="contained">
-                                            Твитнуть
-                                        </Button>
-                                    </div>
-                                </div>
-                            </div>
+                        <AddTweetForm classes={classes}/>
                         </Paper>
                         {[...new Array(20).fill(<Tweet text={'Вы любите розы?\n' +
                         'а я на них срал!\n' +
