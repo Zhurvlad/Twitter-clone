@@ -62,7 +62,13 @@ export const useHomeStyles = makeStyles((theme: Theme) => ({
         borderTop: 0,
         borderBottom: 0
     },
+    tweetsCentred: {
+        marginTop: 50,
+        textAlign: 'center'
+    },
     tweetsHeader: {
+        display: 'flex',
+        alignItems: 'center',
         borderTop: '0',
         borderLeft: '0',
         borderRight: '0',
@@ -70,17 +76,26 @@ export const useHomeStyles = makeStyles((theme: Theme) => ({
         padding: '10px 10px',
         '& h6': {
             fontWeight: 800,
-        }
+        },
+    },
+    tweetsHeaderBack:{
+      marginRight: '20px'
     },
     tweet: {
         display: 'flex',
         cursor: 'pointer',
         paddingTop: 15,
         paddingLeft: 15,
+        alignItems: 'flex-start',
         '&:hover': {
             backgroundColor: 'rgb(245, 248,250)'
         }
     },
+    tweetWrapper: {
+        color: 'inherit',
+        textDecoration: 'none'
+    },
+
     tweetAvatar: {
         width: theme.spacing(6.5),
         height: theme.spacing(6.5),
@@ -134,6 +149,10 @@ export const useHomeStyles = makeStyles((theme: Theme) => ({
         '&:hover': {
             backgroundColor: '#edf3f6',
         },
+        '& a': {
+            color: 'inherit',
+            textDecoration: 'none'
+        }
     },
     addForm: {
         padding: 20,

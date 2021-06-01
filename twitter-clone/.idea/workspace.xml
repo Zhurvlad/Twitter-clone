@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d1bf2082-480d-455c-a944-c65e4effcad6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/public/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/component/BackButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/component/Tags.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Home/component/FullTweet.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/services/api/tagsApi.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/services/api/tweetsApi.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/ducks/tags/actionCreators.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/ducks/tags/reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/ducks/tags/sagas.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/ducks/tags/selector.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/ducks/tags/tweets/contracts/state.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/ducks/tweet/actionCreators.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/ducks/tweet/reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/ducks/tweet/sagas.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/ducks/tweet/selector.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/ducks/tweet/tweets/contracts/state.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/ducks/tweets/actionCreators.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/ducks/tweets/reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/ducks/tweets/sagas.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/ducks/tweets/selector.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/saga.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/types.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/AddTweetForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/AddTweetForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/SideMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/SideMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/Tweet.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/Tweet.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Home/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Home/theme.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Home/theme.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store/ducks/actionCreators.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store/ducks/reducer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store/ducks/tweets/contracts/state.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/ducks/tweets/contracts/state.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store/rootReducers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/rootReducers.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1srD7Xwmu0KP4nAmtVAd5sBa86s" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/src/services/api" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="D:\ReactPetsApp\ZhurVlad\twitter-clone\frontend\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ReactPetsApp\ZhurVlad\twitter-clone\frontend\src\store\ducks\tweets" />
+      <recent name="D:\ReactPetsApp\ZhurVlad\twitter-clone\frontend\src\store\ducks" />
+      <recent name="D:\ReactPetsApp\ZhurVlad\twitter-clone\frontend\src\store" />
+      <recent name="D:\ReactPetsApp\ZhurVlad\twitter-clone\frontend\src\store\reducers\tweets\contracts" />
+      <recent name="D:\ReactPetsApp\ZhurVlad\twitter-clone\frontend\src\store\reducers\tweets" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ReactPetsApp\ZhurVlad\twitter-clone\frontend\src\services\api" />
+      <recent name="D:\ReactPetsApp\ZhurVlad\twitter-clone\frontend\src\store\ducks" />
+      <recent name="D:\ReactPetsApp\ZhurVlad\twitter-clone\frontend\src\store\ducks\tags" />
+      <recent name="D:\ReactPetsApp\ZhurVlad\twitter-clone\frontend\src\store" />
+      <recent name="D:\ReactPetsApp\ZhurVlad\twitter-clone" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.server">
+    <configuration name="server" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="server" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.server" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d1bf2082-480d-455c-a944-c65e4effcad6" name="Default Changelist" comment="" />
+      <created>1621621647187</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621621647187</updated>
+      <workItem from="1621621648383" duration="5794000" />
+      <workItem from="1621754520182" duration="27418000" />
+      <workItem from="1621881275133" duration="1810000" />
+      <workItem from="1621886596126" duration="1452000" />
+      <workItem from="1621962064939" duration="10087000" />
+      <workItem from="1622044416167" duration="15941000" />
+      <workItem from="1622138353436" duration="4547000" />
+      <workItem from="1622213303845" duration="1826000" />
+      <workItem from="1622282441293" duration="16387000" />
+      <workItem from="1622360790933" duration="21679000" />
+      <workItem from="1622482266688" duration="9108000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2882" y="156" width="1546" height="859" key="#Live_Templates" timestamp="1621782610421">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2882" y="156" width="1546" height="859" key="#Live_Templates/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1621782610421" />
+    <state x="3371" y="415" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1621782609356">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="3371" y="415" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1621782609356" />
+    <state x="3650" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1622399015105">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="3650" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1622399015105" />
+    <state x="3681" y="278" key="FileChooserDialogImpl" timestamp="1622305537737">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="3681" y="278" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1622305537737" />
+    <state width="936" height="277" key="GridCell.Tab.0.bottom" timestamp="1622570360935">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="277" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1622570360935" />
+    <state width="936" height="277" key="GridCell.Tab.0.center" timestamp="1622570360935">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="277" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1622570360935" />
+    <state width="936" height="277" key="GridCell.Tab.0.left" timestamp="1622570360935">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="277" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1622570360935" />
+    <state width="936" height="277" key="GridCell.Tab.0.right" timestamp="1622570360935">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="277" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1622570360935" />
+  </component>
+</project>

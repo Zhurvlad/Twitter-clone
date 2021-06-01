@@ -13,7 +13,7 @@ function App() {
             <ThemeProvider theme={theme}>
                 <Switch>
                     <Route path={'/signin'} component={SignIn} exact/>
-                    <Route path={'/'} component={Home} exact/>
+                    <Route path={'/'} component={Home} />
                 </Switch>
             </ThemeProvider>
         </div>

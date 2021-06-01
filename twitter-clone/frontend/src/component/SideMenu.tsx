@@ -11,7 +11,7 @@ import BorderColorIcon from '@material-ui/icons/BorderColor';
 import {useHomeStyles} from "../pages/Home/theme";
 import {ModalBlock} from "./ModalBlock";
 import {AddTweetForm} from "./AddTweetForm";
-
+import {Link} from 'react-router-dom'
 
 interface SideMenuProps {
     classes: ReturnType<typeof useHomeStyles>;
@@ -33,9 +33,11 @@ export const SideMenu: React.FC<SideMenuProps> = ({classes}: SideMenuProps): Rea
 
         <ul className={classes.sideMenuList}>
             <li className={classes.sideMenuItem}>
-                <IconButton className={classes.logo} aria-label={'delete'} color={"primary"}>
-                    <TwitterIcon className={classes.logoIcon}/>
-                </IconButton>
+               <Link to={'/home'}>
+                   <IconButton className={classes.logo} aria-label={'delete'} color={"primary"}>
+                       <TwitterIcon className={classes.logoIcon}/>
+                   </IconButton>
+               </Link>
             </li>
             <li className={classes.sideMenuItem}>
                 <div>

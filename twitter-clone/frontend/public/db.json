@@ -1,0 +1,134 @@
+{
+  "tweets": [
+    {
+      "id": 1,
+      "_id": "5f625ff6bd97609c6925e2b4",
+      "text": "In ad dolor labore ea est laboris commodo elit consequat nulla exercitation cupidatat. Ex nostrud nulla qui nisi cupidatat fugiat duis. Officia occaecat fugiat voluptate sit. Sint est exercitation laboris proident aute consectetur eu aliqua minim sint sint ea aute velit. Ullamco dolore qui mollit non sint sunt consequat quis.",
+      "user": {
+        "fullname": "Dickerson Mcleod",
+        "username": "kirk",
+        "avatarUrl": "https://source.unsplash.com/random/100x100?3"
+      }
+    },
+    {
+      "_id": "bgbzg0b2qpm",
+      "text": "123",
+      "user": {
+        "fullname": "Test U",
+        "username": "test",
+        "avatarUrl": "https://source.unsplash.com/random/100x100?9"
+      },
+      "id": 2
+    },
+    {
+      "_id": "au6lpa6mgpi",
+      "text": "345345",
+      "user": {
+        "fullname": "Test U",
+        "username": "test",
+        "avatarUrl": "https://source.unsplash.com/random/100x100?9"
+      },
+      "id": 3
+    },
+    {
+      "_id": "asiys97ab9u",
+      "text": "1488",
+      "user": {
+        "fullname": "Test U",
+        "username": "test",
+        "avatarUrl": "https://source.unsplash.com/random/100x100?9"
+      },
+      "id": 4
+    },
+    {
+      "_id": "m0b547clh7",
+      "text": "1",
+      "user": {
+        "fullname": "Test U",
+        "username": "test",
+        "avatarUrl": "https://source.unsplash.com/random/100x100?9"
+      },
+      "id": 5
+    },
+    {
+      "_id": "71pszf2887k",
+      "text": "1",
+      "user": {
+        "fullname": "Test U",
+        "username": "test",
+        "avatarUrl": "https://source.unsplash.com/random/100x100?9"
+      },
+      "id": 6
+    },
+    {
+      "_id": "upl74vl3emr",
+      "text": "1",
+      "user": {
+        "fullname": "Test U",
+        "username": "test",
+        "avatarUrl": "https://source.unsplash.com/random/100x100?9"
+      },
+      "id": 7
+    },
+    {
+      "_id": "55ekd3iikbq",
+      "text": "234",
+      "user": {
+        "fullname": "Test U",
+        "username": "test",
+        "avatarUrl": "https://source.unsplash.com/random/100x100?9"
+      },
+      "id": 8
+    },
+    {
+      "_id": "5z71togkrd",
+      "text": "123",
+      "user": {
+        "fullname": "Test U",
+        "username": "test",
+        "avatarUrl": "https://source.unsplash.com/random/100x100?9"
+      },
+      "id": 9
+    }
+  ],
+  "themes": [
+    {
+      "_id": "1f625ff6bd97609c6925e2b4",
+      "name": "Билли",
+      "count": 123
+    },
+    {
+      "_id": "2f625ff6bd97209c6925e2b4",
+      "name": "навального",
+      "count": 345
+    },
+    {
+      "_id": "3f625ff6bd97109c6925e2b4",
+      "name": "гитлера",
+      "count": 12315
+    }
+  ],
+  "users": [
+    {
+      "fullname": "Dick ",
+      "username": "Cock",
+      "avatarUrl": "https://source.unsplash.com/random/100x100?3"
+    },
+    {
+      "fullname": "Mcleod",
+      "username": "Cock",
+      "avatarUrl": "https://source.unsplash.com/random/100x100?7"
+    },
+    {
+      "fullname": "Dieod",
+      "username": "lololololo",
+      "avatarUrl": "https://source.unsplash.com/random/100x100?10"
+    }
+  ],
+  "user": {
+    "_id": "5f625ff6bd97609c6925e2b4",
+    "fullname": "Hebert Morrison",
+    "username": "kristen",
+    "avatarUrl": "https://source.unsplash.com/random/100x100?4"
+  }
+}
